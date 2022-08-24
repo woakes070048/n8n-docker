@@ -1,4 +1,4 @@
-# docker-compose-n8n-letsencrypt
+# docker-compose-n8n-traefik
 
 ## Key features
 
