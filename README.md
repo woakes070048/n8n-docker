@@ -9,11 +9,12 @@
 ## Setup
 
 ```
-git clone https://github.com/woakes070048/n8n-docker n8n
-cd n8n
+git clone https://github.com/woakes070048/n8n-docker
+cd n8n-docker
 cp .env.example .env
 # edit .env
-docker-compose up -d
+mkdir /root/n8n/
+docker-compose up -d && docker-compose logs -f
 ```
 
 This is based on [n8n Official docker-compose.yml](https://github.com/n8n-io/n8n/tree/master/docker/compose/withPostgres).
